@@ -1,0 +1,34 @@
+name: Build Dist
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'  # Cacheia dependências para builds mais rápidos
+
+    - name: Install dependencies
+      run: npm ci  # Usa ci para installs limpos e rápidos
+
+    - name: Build project
+      run: npm run build  # Gera a pasta 'dist' (ajuste se o script for diferente)
+
+    - name: Upload dist artifact  # Opcional: Salva a dist para download
+      uses: actions/upload-artifact@v4
+      with:
+        name: dist-output
+        path: dist/
+        retention-days: 1  # Mantém por 1 dia; ajuste se quiser mais
