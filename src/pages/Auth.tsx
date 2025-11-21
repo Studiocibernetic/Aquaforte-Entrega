@@ -13,6 +13,7 @@ interface User {
   name: string;
   email: string;
   password: string;
+  isAdmin?: boolean;
 }
 
 const Auth = () => {
@@ -90,6 +91,27 @@ const Auth = () => {
         description: "Por favor, preencha todos os campos.",
         variant: "destructive",
       });
+      return;
+    }
+
+    // Check for admin credentials
+    if (email === "misaeljuniorrodriguesdossantos@gmail.com" && password === "aqua@forte") {
+      const adminUser: User = {
+        id: "admin",
+        name: "Administrador",
+        email: "misaeljuniorrodriguesdossantos@gmail.com",
+        password: "aqua@forte",
+        isAdmin: true
+      };
+      
+      localStorage.setItem("currentUser", JSON.stringify(adminUser));
+      
+      toast({
+        title: "Login bem-sucedido!",
+        description: "Bem-vindo, Administrador!",
+      });
+      
+      navigate("/blog");
       return;
     }
 
