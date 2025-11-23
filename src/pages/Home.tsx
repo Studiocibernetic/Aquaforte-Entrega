@@ -226,10 +226,10 @@ const Home = () => {
             Contacte-nos agora e receba uma resposta rápida da nossa equipa
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:+351966931401">
+            <a href="tel:+351966931357">
               <Button size="lg" variant="cta" className="text-lg px-8">
                 <Phone className="mr-2 h-5 w-5" />
-                +351 966 931 401
+                +351 966 931 357
               </Button>
             </a>
             <Link to="/formulario">

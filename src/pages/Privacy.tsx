@@ -72,7 +72,7 @@ const Privacy = () => {
             <p>
               Email: privacidade@aquaforte.pt
               <br />
-              Telefone: +351 966 931 401
+              Telefone: +351 966 931 357
             </p>
           </div>
         </div>

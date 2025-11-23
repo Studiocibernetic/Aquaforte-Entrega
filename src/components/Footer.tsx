@@ -45,14 +45,14 @@ export const Footer = () => {
                 <div className="bg-accent/20 p-2 rounded-lg group-hover:bg-accent/30 transition-colors">
                   <MapPin className="h-5 w-5 text-accent flex-shrink-0" strokeWidth={2.5} />
                 </div>
-                <span className="pt-1 text-sm">Rua das Fontainhas, nº 51 – 2700-391 Amadora</span>
+                <span className="pt-1 text-sm">Tv. Salão 3, 1685-360 Caneças, Portugal</span>
               </div>
               <div className="flex items-center gap-3 group">
                 <div className="bg-accent/20 p-2 rounded-lg group-hover:bg-accent/30 transition-colors">
                   <Phone className="h-5 w-5 text-accent" strokeWidth={2.5} />
                 </div>
-                <a href="tel:+351966931401" className="hover:text-accent transition-colors text-sm pt-1">
-                  +351 966 931 401
+                <a href="tel:+351966931357" className="hover:text-accent transition-colors text-sm pt-1">
+                  +351 966 931 357
                 </a>
               </div>
               <div className="flex items-center gap-3 group">
@@ -91,7 +91,7 @@ export const Footer = () => {
                 <Facebook className="h-6 w-6 text-white" strokeWidth={2} />
               </a>
               <a
-                href="https://wa.me/351966931401"
+                href="https://wa.me/351966931357"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white/10 p-3 rounded-lg hover:bg-white/20 hover:scale-110 transition-all duration-300"

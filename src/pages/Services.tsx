@@ -222,9 +222,9 @@ const Services = () => {
               <Link to="/contacto">
                 <Button size="lg">Contacte-nos</Button>
               </Link>
-              <a href="tel:+351966931401">
+              <a href="tel:+351966931357">
                 <Button size="lg" variant="outline">
-                  Ligue Agora: +351 966 931 401
+                  Ligue Agora: +351 966 931 357
                 </Button>
               </a>
             </div>

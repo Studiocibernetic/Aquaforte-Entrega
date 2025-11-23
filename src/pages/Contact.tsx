@@ -72,10 +72,10 @@ const Contact = () => {
               </CardHeader>
               <CardContent>
                 <a
-                  href="tel:+351966931401"
+                  href="tel:+351966931357"
                   className="text-lg hover:text-primary transition-colors"
                 >
-                  +351 966 931 401
+                  +351 966 931 357
                 </a>
                 <p className="text-sm text-muted-foreground mt-2">
                   Disponível 24/7 para emergências
@@ -111,8 +111,8 @@ const Contact = () => {
                 <CardTitle>Morada</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg">Rua das Fontainhas, nº 51</p>
-                <p className="text-lg">2700-391 Amadora</p>
+                <p className="text-lg">Tv. Salão 3</p>
+                <p className="text-lg">1685-360 Caneças, Portugal</p>
                 <p className="text-sm text-muted-foreground mt-2">Portugal</p>
               </CardContent>
             </Card>
@@ -166,7 +166,7 @@ const Contact = () => {
                       type="tel"
                       value={formData.phone}
                       onChange={handleChange}
-                      placeholder="+351 966 931 401"
+                      placeholder="+351 966 931 357"
                     />
                   </div>
 

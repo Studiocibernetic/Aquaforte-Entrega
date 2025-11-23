@@ -117,7 +117,7 @@ const Form = () => {
                           type="tel"
                           value={formData.phone}
                           onChange={handleChange}
-                          placeholder="+351 966 931 401"
+                          placeholder="+351 966 931 357"
                           required
                         />
                       </div>

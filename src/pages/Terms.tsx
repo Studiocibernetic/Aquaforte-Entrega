@@ -73,7 +73,7 @@ const Terms = () => {
             <p>
               Email: geral@aquaforte.pt
               <br />
-              Telefone: +351 966 931 401
+              Telefone: +351 966 931 357
             </p>
           </div>
         </div>

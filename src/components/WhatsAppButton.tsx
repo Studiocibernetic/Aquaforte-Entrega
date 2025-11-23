@@ -1,7 +1,7 @@
 export const WhatsAppButton = () => {
   return (
     <a
-      href="https://wa.me/351966931401"
+      href="https://wa.me/351966931357?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20de%20canalização%20da%20Aquaforte.%20Poderiam%20me%20ajudar?"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-50 group"
